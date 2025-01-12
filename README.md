@@ -1,2 +1,2 @@
 # flancraft
-Minecraft mod for 1.21 that adds flan
+a mod for Minecraft Java Edition 1.21 that adds flan.
