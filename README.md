@@ -2,6 +2,8 @@
 
 **Flancraft** is a Fabric mod that puts flan in minecraft.
 
+[![Youtube Thumbnail](https://img.youtube.com/vi/HpFZEUT9jQU/0.jpg)](https://www.youtube.com/watch?v=HpFZEUT9jQU)
+
 ---
 
 ## Features
