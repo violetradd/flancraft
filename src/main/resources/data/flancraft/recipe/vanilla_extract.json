@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "flancraft:vanilla_bean"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "flancraft:vanilla_extract"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "flancraft:evaporated_milk"
+    },
+    {
+      "item": "flancraft:condensed_milk"
+    },
+    {
+      "item": "flancraft:vanilla_extract"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "flancraft:custard"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "condensed_milk",
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "X": {
+      "item": "flancraft:evaporated_milk"
+    }
+  },
+  "pattern": [
+    "##",
+    "X#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flancraft:condensed_milk"
+  }
+}

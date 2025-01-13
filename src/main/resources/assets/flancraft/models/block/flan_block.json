@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "flancraft:block/flan_block_bottom",
+    "up": "flancraft:block/flan_block_top",
+    "north": "flancraft:block/flan_block_side",
+    "east": "flancraft:block/flan_block_side",
+    "south": "flancraft:block/flan_block_side",
+    "west": "flancraft:block/flan_block_side",
+    "particle": "flancraft:block/flan_block_side"
+  }
+}

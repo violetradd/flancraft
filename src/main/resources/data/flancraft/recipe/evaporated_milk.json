@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "evaporated_milk",
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
+  "result": {
+    "id": "flancraft:evaporated_milk"
+  }
+}

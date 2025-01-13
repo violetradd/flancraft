@@ -1,0 +1,12 @@
+{
+  "item.flancraft.flan": "Flan",
+  "item.flancraft.evaporated_milk": "Evaporated Milk",
+  "item.flancraft.condensed_milk": "Condensed Milk",
+  "item.flancraft.caramel": "Caramel",
+  "item.flancraft.custard": "Custard",
+  "item.flancraft.vanilla_bean": "Vanilla Bean",
+  "item.flancraft.vanilla_extract": "Vanilla Extract",
+
+  "block.flancraft.flan_block": "Block of Flan",
+  "block.flancraft.custard_block": "Block of Custard"
+}

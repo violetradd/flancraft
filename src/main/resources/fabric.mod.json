@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "flancraft",
+	"version": "${version}",
+	"name": "Flancraft",
+	"description": "Fabric mod that adds flan to minecraft.",
+	"authors": [
+		"Violet Radd"
+	],
+	"contact": {
+		"homepage": "https://violetradd.neocities.org/etc/flancraft",
+		"sources": "https://github.com/violetradd/flancraft"
+	},
+	"license": "The Unlicense",
+	"icon": "assets/flancraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.violetradd.flancraft.Flancraft"
+		],
+		"fabric-datagen": [
+			"net.violetradd.flancraft.FlancraftDataGenerator"
+		],
+		"client": [
+			"net.violetradd.flancraft.FlancraftClient"
+		]
+	},
+	"mixins": [
+		"flancraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

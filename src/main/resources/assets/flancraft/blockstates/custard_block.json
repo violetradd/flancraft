@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "flancraft:block/custard_block"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "caramel",
+  "key": {
+    "#": {
+      "item": "minecraft:water_bucket"
+    },
+    "X": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flancraft:caramel"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "flan",
+  "key": {
+    "#": {
+      "item": "flancraft:caramel"
+    },
+    "X": {
+      "item": "flancraft:custard"
+    }
+  },
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "flancraft:flan"
+  }
+}
