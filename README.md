@@ -1,50 +1,70 @@
-# Flancraft
+<p align="center">
+  <img src="docs/assets/banner.svg" alt="Flancraft — A little sweetness. A little luck." width="100%">
+</p>
 
-**Flancraft** is a Fabric mod that puts flan in minecraft.
+<p align="center">
+  <strong>A dessert-sized Fabric mod for Minecraft.</strong><br>
+  Make caramel, whip up custard, and turn your next build into something sweet.
+</p>
 
-[![Youtube Thumbnail](https://img.youtube.com/vi/HpFZEUT9jQU/0.jpg)](https://www.youtube.com/watch?v=HpFZEUT9jQU)
-
----
-
-## Features
-
-### 🍮 Items
-- **Flan**: A delicious treat that grants **Luck** for 5 minutes when eaten.
-- **Caramel**: A quick snack to satisfy your sweet tooth. Instrumental in crafting flan.
-- **Custard**: A creamy dessert for light snacking. Also an ingredient for crafting flan.
-- **Evaporated Milk**: An essential ingredient for crafting.
-- **Condensed Milk**: Another key ingredient for crafting desserts.
-- **Vanilla Extract**: Used for crafting and brewing.
-- **Vanilla Bean**: Found in jungle temples, abandoned mineshafts, and dungeons.
-
-### 🧱 Blocks
-- **Flan Block**: A decorative block perfect for dessert-themed builds.
-- **Custard Block**: Another decorative block.
+<p align="center">
+  <a href="https://github.com/violetradd/flancraft/releases">Releases</a> ·
+  <a href="https://www.youtube.com/watch?v=HpFZEUT9jQU">Watch the showcase</a> ·
+  <a href="https://github.com/violetradd/flancraft/issues">Bugs &amp; ideas</a>
+</p>
 
 ---
 
-## Installation
+## Meet the menu
 
-1. **Install the Fabric Loader**:
-    - Download the latest Fabric Loader from [fabricmc.net](https://fabricmc.net/).
-    - Run the installer and set it up for your Minecraft version (1.21.1).
-2. **Install the Fabric API**:
-    - Download the Fabric API from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api) or [Modrinth](https://modrinth.com/mod/fabric-api).
-    - Place the Fabric API `.jar` file in your `mods` folder.
-3. **Install Flancraft**:
-    - Download the latest version of Flancraft.
-    - Place the `flancraft-[version].jar` file in your `mods` folder.
-4. **Launch the Game**:
-    - Start Minecraft using the Fabric Loader profile and enjoy!
+| | On the menu | What it brings |
+| :---: | :--- | :--- |
+| <img src="src/main/resources/assets/flancraft/textures/item/flan.png" width="48" alt="Flan"> | **Flan** | The star of the show. Restores 6 hunger points and has a **50% chance to grant Luck for 5 minutes**. |
+| <img src="src/main/resources/assets/flancraft/textures/item/caramel.png" width="48" alt="Caramel"> | **Caramel** | A quick, sweet snack and the finishing touch for flan. |
+| <img src="src/main/resources/assets/flancraft/textures/item/custard.png" width="48" alt="Custard"> | **Custard** | A creamy snack that becomes the base of your dessert. |
+| <img src="src/main/resources/assets/flancraft/textures/item/evaporated_milk.png" width="48" alt="Evaporated milk"> | **Evaporated milk** | Stock your pantry for dessert crafting. |
+| <img src="src/main/resources/assets/flancraft/textures/item/condensed_milk.png" width="48" alt="Condensed milk"> | **Condensed milk** | Another essential for your crafting-table kitchen. |
+| <img src="src/main/resources/assets/flancraft/textures/item/vanilla_extract.png" width="48" alt="Vanilla extract"> | **Vanilla extract** | Bring a little vanilla to your recipes. |
+| <img src="src/main/resources/assets/flancraft/textures/item/vanilla_bean.png" width="48" alt="Vanilla bean"> | **Vanilla bean** | Search jungle temples, abandoned mineshafts, and dungeons to find it. |
 
----
+### Build something delicious
 
-## Notes
-- Compatible with **Minecraft 1.21.1**.
-- Requires Fabric to run.
+**Flan blocks** and **custard blocks** bring the dessert counter to your builds. Try a bakery display, a candy-colored cottage, or an entire room made of custard. Both blocks can be crafted back into their matching desserts.
 
----
+## Your first flan
 
-## Contributing
-Found a bug or have a suggestion? Open an issue or submit a pull request on [GitHub](https://github.com/violetradd/flancraft).
+Put **3 caramel** above **3 custard** in a crafting table:
 
+| | | |
+| :---: | :---: | :---: |
+| Caramel | Caramel | Caramel |
+| Custard | Custard | Custard |
+
+**Makes 1 flan.** Take a bite and try your luck.
+
+## Get cooking
+
+1. Install [Fabric Loader](https://fabricmc.net/use/installer/) **0.16.10 or newer** for your Minecraft version.
+2. Add a matching [Fabric API](https://modrinth.com/mod/fabric-api) `.jar` to your Minecraft `mods` folder.
+3. Get the Flancraft mod `.jar` from [Releases](https://github.com/violetradd/flancraft/releases), if one is available, and put it in the same folder. If there is no packaged release, use the build instructions below.
+4. Launch Minecraft with your Fabric profile. Dessert is served.
+
+> **Version notes:** The source currently builds against **Minecraft 1.21** and requires **Java 21**. Mod metadata allows the 1.21 series; the original README listed 1.21.1. Choose a release and Fabric API that match your game version.
+
+## From source, with sugar
+
+With **JDK 21** installed, clone this repository and run:
+
+```sh
+git clone https://github.com/violetradd/flancraft.git
+cd flancraft
+./gradlew build
+```
+
+On Windows, use `gradlew.bat build`. The mod is written to `build/libs/`; use the `.jar` without the `-sources` suffix.
+
+## Pull up a chair
+
+Have a dessert idea or found something broken? [Open an issue](https://github.com/violetradd/flancraft/issues) or send a pull request. For bug reports, include your Minecraft version, Fabric Loader version, and any relevant logs.
+
+Made by **Violet Radd** · Released into the public domain under [The Unlicense](LICENSE).
